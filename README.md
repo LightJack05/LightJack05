@@ -11,6 +11,10 @@ On the side, I also recently started doing some embedded dev, an example of whic
 ## Reference Projects
 If you're here to see some projects, take a look at the ones below.
 
+
+> [!TIP]
+> Additional projects and stuff I use can be found in my [stars](https://github.com/LightJack05?tab=stars).
+
 ### My private cloud under my desk (My HomeLab v2)
 Over the past years, I have moved on from just making things work, and started to make things efficient.
 I ended up simplifying a VM deployment and also configuration management to just 10 lines of YAML + additional playbooks aside from the base config:

@@ -58,7 +58,7 @@ Take look at the code [here](https://github.com/LightJack05/gitea-auto-mirror) a
 I'm currently diving deep into Talos systems, aiming to use it to replace my current Proxmox Hypervisor for more automation potential.
 In the process, I will build on top of KubeVirt to enable virtualization on Talos.
 
-My Bachelors Thesis project is planned to be a Kubernets operator allowing me to manage my VM hosted on KubeVirt using Ansible via the Kuberentes API.
+My Bachelors Thesis project is planned to be a Kubernets operator allowing you to manage any SSH capable machine using Ansible via the Kuberentes API.
 Details on that will follow, so stay tuned!
 
 ## How to reach me

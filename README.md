@@ -48,7 +48,7 @@ It's very handy for managing licenses in Go projects, so you don't have to deal 
 See [this repo](https://github.com/LightJack05/go-license-collector) for details.
 
 #### Gitea Auto Mirror
-I have built a tool that listens to github repo create events and adds push-mirror entries to the newly created repo in order to allow it to be mirrored to a different server.
+I have built a tool that listens to gitea repo create events and adds push-mirror entries to the newly created repo in order to allow it to be mirrored to a different server.
 (Should also work with Forgejo, but no guaruantees)
 
 Take look at the code [here](https://github.com/LightJack05/gitea-auto-mirror) and [read the docs](https://lightjack05.github.io/gitea-auto-mirror/) if you are interested.

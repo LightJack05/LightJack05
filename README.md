@@ -1,19 +1,31 @@
 ## Hi there 👋
-I'm Elias Paitz, aka LightJack05. Welcome to my GitHub Profile!
+I'm Elias Paitz, aka LightJack05.
 
 ## Who am I?
-I am a technology enthusiast from Germany. 
-I specialize in eliminating Toil from setups and making sure they run reliably.
-Additionally, I attempt to create platforms that make other people's (and my) life easier and more efficient.
+I am a DevSecOps Engineer and technology enthusiast from Berlin, Germany. 
+I specialize in automating infrastructure and making sure it runs reliably.
+In the same way, I create platforms that make other people's (and my) life easier and more efficient.
 
-On the side, I also recently started doing some embedded dev, an example of which you can check out [here](https://github.com/LightJack05/meme-pi).
+I also hold a Bachelors Degree (B.Sc.) in Computer Science, from the Berlin School of Economics and Law (HWR).
+
+On the side, I recently started doing some embedded dev, an example of which you can check out [here](https://github.com/LightJack05/meme-pi).
+It's work in progress, but I've already learned a lot about Linux (and I still do every day).
 
 ## Reference Projects
 If you're here to see some projects, take a look at the ones below.
 
-
 > [!TIP]
 > Additional projects and stuff I use can be found in my [stars](https://github.com/LightJack05?tab=stars).
+
+### My Bachelor Thesis
+
+**Extending the Kubernetes API to manage legacy workloads via Ansible**
+
+You have a library of Ansible Playbooks and Roles, and want to move to Kubernetes.
+But what you really don't want are two separate control planes that differ in Interface, Behavior and operational model.
+This is where the project comes in: With the basis of Promise Theory (Bergstra, J. A. and Burgess, Mark) I map an Ansible Playbook run into something you can promise in a Kubernetes based platform, and implement an operator to actually exercise that concept.
+
+Check out [the thesis](https://github.com/LightJack05/bachelor-thesis), [the operator](https://github.com/LightJack05/ansible-operator) and the associated Repos for the OCI images to run the Playbooks.
 
 ### My private cloud under my desk (My HomeLab v2)
 Over the past years, I have moved on from just making things work to making things efficient.
@@ -32,7 +44,7 @@ deployments:
       - vnet: "vnlabg"
 ```
 
-Want to see how it works? Check out my [HomeLab-v2 repo](https://github.com/LightJack05/HomeLab-v2/)
+Check out my [HomeLab-v2 repo](https://github.com/LightJack05/HomeLab-v2/) to see how it works.
 
 ### Embedded development of Kernel Modules
 As a bit of a work-in-progress, I am currently working on building a Kernel module that serves as a Driver for an SPI epaper display and exposes an ioctl and mmap based interface for commands and framebuffer to userspace.
@@ -54,12 +66,11 @@ I have built a tool that listens to gitea repo create events and adds push-mirro
 Take look at the code [here](https://github.com/LightJack05/gitea-auto-mirror) and [read the docs](https://lightjack05.github.io/gitea-auto-mirror/) if you are interested.
 
 ## Currently learning
-### Talos and Kubernetes Operators
+### HomeLab v3 (Talos, Kubernetes and Operators)
 I'm currently diving deep into Talos systems, aiming to use it to replace my current Proxmox Hypervisor for more automation potential.
-In the process, I will build on top of KubeVirt to enable virtualization on Talos.
+In the process, I'm building on top of Kata Containers, Rook Ceph and ArgoCD to pull it all together, and sprinkle in a bit of istio for good measure.
 
-My Bachelors Thesis project is planned to be a Kubernets operator allowing you to manage any SSH capable machine using Ansible via the Kuberentes API.
-Details on that will follow, so stay tuned!
+The goal? Nearly hands-off maintenance (which I already go close to with v2), easy deployment of common workloads, security that rivals enterprise platforms, and even better failure tolerance that what I currently have.
 
 ## How to reach me
 Select your favourite platform:
